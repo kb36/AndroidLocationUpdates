@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.flamingo.currentlocation.MainActivity" >
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_location" />
+
+    <TextView
+        android:id="@+id/latdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/desc"
+        android:layout_below="@+id/desc"
+        android:layout_marginTop="16dp"
+        android:text="@string/lat_desc" />
+    
+    <TextView
+        android:id="@+id/latvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/latdesc"
+        android:layout_below="@+id/latdesc"
+        android:layout_marginTop="16dp"
+        android:text="@string/lat_value" />
+    
+    <TextView
+        android:id="@+id/longdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/latvalue"
+        android:layout_below="@+id/latvalue"
+        android:layout_marginTop="16dp"
+        android:text="@string/long_desc" />
+    
+    <TextView
+        android:id="@+id/longvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/longdesc"
+        android:layout_below="@+id/longdesc"
+        android:layout_marginTop="16dp"
+        android:text="@string/long_value" />
+    
+    <TextView
+        android:id="@+id/providerdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/longvalue"
+        android:layout_below="@+id/longvalue"
+        android:layout_marginTop="16dp"
+        android:text="@string/prov_desc" />
+    
+    <TextView
+        android:id="@+id/providervalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/providerdesc"
+        android:layout_below="@+id/providerdesc"
+        android:layout_marginTop="16dp"
+        android:text="@string/prov_value" />
+
+</RelativeLayout>

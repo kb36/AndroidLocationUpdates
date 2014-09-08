@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CurrentLocation</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_location">Current Location</string>
+    <string name="lat_desc">Latitude:</string>
+    <string name="lat_value"/>
+    <string name="long_desc">Longitude:</string>
+    <string name="long_value"/>
+	<string name="prov_desc">Active Providers:</string>
+	<string name="prov_value"/>
+</resources>
